@@ -26,7 +26,15 @@ export default async function getCurrentUser() {
       return null;
     }
 
-    return currentUser;
+    // We need to modify how we return an object from server
+    // because we are passing it into a client component
+    // it does not recognize certain server types
+    return {
+      ...currentUser,
+      createdAt: currentUser.createdAt.toISOString(),
+      updatedAt: currentUser.updatedAt.toISOString(),
+      emailVerified: currentUser.emailVerified?.toISOString() || null,
+    };
   } catch (error) {
     return null;
   }
