@@ -25,6 +25,9 @@ export const authOptions: AuthOptions = {
         password: { label: "password", type: "password" },
       },
       async authorize(credentials) {
+        // You need to provide your own logic here that takes the credentials
+        // submitted and returns either a object representing a user or value
+        // that is false/null if the credentials are invalid.
         if (!credentials?.email || !credentials?.password) {
           throw new Error("Invalid credentials");
         }
