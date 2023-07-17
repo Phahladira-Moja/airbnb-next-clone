@@ -18,8 +18,8 @@ import {
   GiWindmill,
 } from "react-icons/gi";
 
-import CategoryBox from "../CategoryBox";
 import { usePathname, useSearchParams } from "next/navigation";
+import CategoryBox from "../CategoryBox";
 
 export const categories = [
   {
