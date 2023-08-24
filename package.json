@@ -23,7 +23,7 @@
     "eslint-config-next": "13.4.9",
     "install": "^0.13.0",
     "leaflet": "^1.9.4",
-    "next": "13.4.9",
+    "next": "^13.4.19",
     "next-auth": "^4.22.1",
     "next-cloudinary": "^4.14.1",
     "postcss": "8.4.25",
