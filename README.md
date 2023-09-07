@@ -33,7 +33,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-![plot](public/assets/readme/1.png)
-![plot](public/assets/readme/2.png)
-![plot](public/assets/readme/3.png)
-![plot](public/assets/readme/4.png)
+![plot](public/readme/1.png)
+![plot](public/readme/2.png)
+![plot](public/readme/3.png)
+![plot](public/readme/4.png)
